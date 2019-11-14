@@ -23,7 +23,6 @@ class App extends Component {
     this.setState({
       recipes: data.recipes
     });
-    console.log(this.state.recipes);
   }
 
   render() {
